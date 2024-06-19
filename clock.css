@@ -28,7 +28,7 @@ body{
     width:525px;
     height:525px;
     border-radius: 50%;
-    background: linear-gradient(to right,skyblue,pink);
+    background: linear-gradient(to right,yellow,red,orange);
     box-shadow: 0 0 15px 15px rgba(0,0,0,0.2);
     z-index:-1;
 
@@ -39,7 +39,7 @@ body{
     text-align: center;
     inset:20px;
     font-size: 40px;
-    color:blue;
+    color:white;
 }
 .number b{
     transform: rotate(calc(-30deg * var(--n)));
@@ -65,14 +65,17 @@ body{
     width:12px;
     height:130px;
     background-color: black;
+    border-radius: 12px;
 }
 .minute-hand{
     width:12px;
     height: 190px;
     background-color: blue;
+    border-radius: 12px;
 }
 .second-hand{
     width:6px;
     height: 210px;
     background-color: red;
+    border-radius: 12px;
 }
